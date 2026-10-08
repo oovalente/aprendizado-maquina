@@ -1,0 +1,62 @@
+{
+  "original": [
+    {
+      "Modelo": "LDA",
+      "Acurácia": 0.8444444444444444,
+      "TP": 165,
+      "FP": 20,
+      "TN": 63,
+      "FN": 22,
+      "AUC manual": 0.9132143547451839
+    },
+    {
+      "Modelo": "QDA",
+      "Acurácia": 0.9407407407407408,
+      "TP": 187,
+      "FP": 16,
+      "TN": 67,
+      "FN": 0,
+      "AUC manual": 0.9727466013787772
+    }
+  ],
+  "deslocado": [
+    {
+      "Modelo": "LDA",
+      "Acurácia": 0.9925925925925926,
+      "TP": 187,
+      "FP": 2,
+      "TN": 81,
+      "FN": 0,
+      "AUC manual": 0.9995489981315636
+    },
+    {
+      "Modelo": "QDA",
+      "Acurácia": 0.9962962962962963,
+      "TP": 187,
+      "FP": 1,
+      "TN": 82,
+      "FN": 0,
+      "AUC manual": 0.9999999999999999
+    }
+  ],
+  "contagens": {
+    "Total": {
+      "Classe 1 (y=0)": 300,
+      "Classe 2 (y=1)": 600
+    },
+    "Treino": {
+      "Classe 1 (y=0)": 217,
+      "Classe 2 (y=1)": 413
+    },
+    "Teste": {
+      "Classe 1 (y=0)": 83,
+      "Classe 2 (y=1)": 187
+    }
+  },
+  "versoes": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1"
+  }
+}

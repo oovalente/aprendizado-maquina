@@ -1,0 +1,175 @@
+{
+  "acuracia": 0.9736842105263158,
+  "auc_maligno": 0.99737962659679,
+  "matriz_confusao": [
+    [
+      41,
+      2
+    ],
+    [
+      1,
+      70
+    ]
+  ],
+  "sensibilidade_maligno": 0.9534883720930233,
+  "especificidade": 0.9859154929577465,
+  "treino": 455,
+  "teste": 114,
+  "classes": {
+    "1": 357,
+    "0": 212
+  },
+  "base": 0.4455845269100698,
+  "erro_aditividade": 7.105427357601002e-15,
+  "ranking": [
+    {
+      "variavel": "worst texture",
+      "media_abs_shap": 1.12937043450729,
+      "coeficiente": -1.3506055922623297
+    },
+    {
+      "variavel": "mean concave points",
+      "media_abs_shap": 0.9641594892758635,
+      "coeficiente": -1.1198040756502865
+    },
+    {
+      "variavel": "radius error",
+      "media_abs_shap": 0.8745828398728372,
+      "coeficiente": -1.2681781455073835
+    },
+    {
+      "variavel": "worst symmetry",
+      "media_abs_shap": 0.8231612559357584,
+      "coeficiente": -1.208200306931779
+    },
+    {
+      "variavel": "worst concavity",
+      "media_abs_shap": 0.7154184556847928,
+      "coeficiente": -0.9430531344506449
+    },
+    {
+      "variavel": "worst radius",
+      "media_abs_shap": 0.7122404811026317,
+      "coeficiente": -0.8798402352507748
+    },
+    {
+      "variavel": "worst concave points",
+      "media_abs_shap": 0.6668070682278103,
+      "coeficiente": -0.7782172634838894
+    },
+    {
+      "variavel": "worst area",
+      "media_abs_shap": 0.6516287890669604,
+      "coeficiente": -0.8418459407075644
+    },
+    {
+      "variavel": "mean concavity",
+      "media_abs_shap": 0.6292321004011693,
+      "coeficiente": -0.8014580988560306
+    },
+    {
+      "variavel": "area error",
+      "media_abs_shap": 0.5253102483704614,
+      "coeficiente": -0.9071857032866871
+    }
+  ],
+  "pacientes": [
+    {
+      "indice": 204,
+      "real": "Benigno",
+      "predito": "Benigno",
+      "p_maligno": 0.11359024990253064,
+      "base": 0.4455845269100698,
+      "score": 2.054581641310424,
+      "principais": [
+        {
+          "variavel": "mean concave points",
+          "valor_original": 0.03821,
+          "shap": 0.2966010001202168
+        },
+        {
+          "variavel": "worst area",
+          "valor_original": 677.9,
+          "shap": 0.29556652917537507
+        },
+        {
+          "variavel": "worst smoothness",
+          "valor_original": 0.1426,
+          "shap": -0.26121200996753785
+        },
+        {
+          "variavel": "compactness error",
+          "valor_original": 0.01911,
+          "shap": -0.23961538685562087
+        }
+      ]
+    },
+    {
+      "indice": 70,
+      "real": "Maligno",
+      "predito": "Maligno",
+      "p_maligno": 0.999990990637942,
+      "base": 0.4455845269100698,
+      "score": -11.617237283218675,
+      "principais": [
+        {
+          "variavel": "radius error",
+          "valor_original": 0.7888,
+          "shap": -1.7341771474185173
+        },
+        {
+          "variavel": "worst radius",
+          "valor_original": 24.86,
+          "shap": -1.5789777813266004
+        },
+        {
+          "variavel": "worst area",
+          "valor_original": 1866.0,
+          "shap": -1.4682981890828577
+        },
+        {
+          "variavel": "area error",
+          "valor_original": 96.05,
+          "shap": -1.0762687813869036
+        }
+      ]
+    },
+    {
+      "indice": 131,
+      "real": "Maligno",
+      "predito": "Maligno",
+      "p_maligno": 0.9969209045931872,
+      "base": 0.4455845269100698,
+      "score": -5.780035578647041,
+      "principais": [
+        {
+          "variavel": "mean concave points",
+          "valor_original": 0.08087,
+          "shap": -0.9599195161218911
+        },
+        {
+          "variavel": "mean concavity",
+          "valor_original": 0.1466,
+          "shap": -0.5825815366808091
+        },
+        {
+          "variavel": "worst radius",
+          "valor_original": 19.26,
+          "shap": -0.5537741319832794
+        },
+        {
+          "variavel": "worst smoothness",
+          "valor_original": 0.1546,
+          "shap": -0.54442320134278
+        }
+      ]
+    }
+  ],
+  "versoes": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "shap": "0.52.0"
+  }
+}
