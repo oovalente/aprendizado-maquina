@@ -1,0 +1,258 @@
+{
+  "metricas": [
+    {
+      "cenario": "Base",
+      "n": 100,
+      "sigma": 10,
+      "grau": 1,
+      "mse_treino": 672.4207550315198,
+      "mse_teste": 549.9666166420469,
+      "r2_treino": 0.9232171129608966,
+      "r2_teste": 0.9423009594240231
+    },
+    {
+      "cenario": "Base",
+      "n": 100,
+      "sigma": 10,
+      "grau": 2,
+      "mse_treino": 81.47153703416313,
+      "mse_teste": 63.58406072820818,
+      "r2_treino": 0.9906968668379323,
+      "r2_teste": 0.9933291600091245
+    },
+    {
+      "cenario": "Base",
+      "n": 100,
+      "sigma": 10,
+      "grau": 10,
+      "mse_treino": 77.03845634443147,
+      "mse_teste": 66.12035902272963,
+      "r2_treino": 0.9912030747907475,
+      "r2_teste": 0.9930630675340905
+    },
+    {
+      "cenario": "Ruído maior",
+      "n": 100,
+      "sigma": 30,
+      "grau": 1,
+      "mse_treino": 1513.92190812949,
+      "mse_teste": 1186.2587043930812,
+      "r2_treino": 0.8351564283558106,
+      "r2_teste": 0.8722855944431946
+    },
+    {
+      "cenario": "Ruído maior",
+      "n": 100,
+      "sigma": 30,
+      "grau": 2,
+      "mse_treino": 733.2438333074682,
+      "mse_teste": 572.2565465538726,
+      "r2_treino": 0.9201606557647217,
+      "r2_teste": 0.9383899950335788
+    },
+    {
+      "cenario": "Ruído maior",
+      "n": 100,
+      "sigma": 30,
+      "grau": 10,
+      "mse_treino": 693.3461070998846,
+      "mse_teste": 595.0832312045678,
+      "r2_treino": 0.9245049245498046,
+      "r2_teste": 0.9359324396536267
+    },
+    {
+      "cenario": "Triplo de dados",
+      "n": 300,
+      "sigma": 10,
+      "grau": 1,
+      "mse_treino": 611.2512978763355,
+      "mse_teste": 429.2420348006572,
+      "r2_treino": 0.9363900769920515,
+      "r2_teste": 0.9500716977447139
+    },
+    {
+      "cenario": "Triplo de dados",
+      "n": 300,
+      "sigma": 10,
+      "grau": 2,
+      "mse_treino": 105.22954672131722,
+      "mse_teste": 66.64368280952775,
+      "r2_treino": 0.9890492774602525,
+      "r2_teste": 0.9922481824496411
+    },
+    {
+      "cenario": "Triplo de dados",
+      "n": 300,
+      "sigma": 10,
+      "grau": 10,
+      "mse_treino": 99.01790602226217,
+      "mse_teste": 78.68986432310504,
+      "r2_treino": 0.9896956924257384,
+      "r2_teste": 0.9908470023627205
+    }
+  ],
+  "resumo": [
+    {
+      "cenario": "Base",
+      "grau": 1,
+      "mse_treino_medio": 585.4549151088102,
+      "mse_teste_medio": 624.1246242721433,
+      "mse_teste_mediano": 592.1074746638093,
+      "mse_teste_p90": 857.6540455614298,
+      "r2_teste_mediano": 0.9276295991820869
+    },
+    {
+      "cenario": "Base",
+      "grau": 2,
+      "mse_treino_medio": 96.44454355224761,
+      "mse_teste_medio": 102.42838807335922,
+      "mse_teste_mediano": 98.05934862116219,
+      "mse_teste_p90": 143.4593774506617,
+      "r2_teste_mediano": 0.9884502106862267
+    },
+    {
+      "cenario": "Base",
+      "grau": 10,
+      "mse_treino_medio": 86.73642460236334,
+      "mse_teste_medio": 125.34003734825919,
+      "mse_teste_mediano": 113.77754820415936,
+      "mse_teste_p90": 167.47517817875914,
+      "r2_teste_mediano": 0.9866821829299974
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 1,
+      "mse_treino_medio": 1368.1911353747669,
+      "mse_teste_medio": 1428.9912497034284,
+      "mse_teste_mediano": 1392.992133535964,
+      "mse_teste_p90": 2063.2766939429985,
+      "r2_teste_mediano": 0.8419029478580933
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 2,
+      "mse_treino_medio": 868.0008919702285,
+      "mse_teste_medio": 921.8554926602333,
+      "mse_teste_mediano": 882.5341375904593,
+      "mse_teste_p90": 1291.1343970559549,
+      "r2_teste_mediano": 0.9006629140760577
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 10,
+      "mse_treino_medio": 780.6278214212704,
+      "mse_teste_medio": 1128.0603361343342,
+      "mse_teste_mediano": 1023.9979338374314,
+      "mse_teste_p90": 1507.2766036088406,
+      "r2_teste_mediano": 0.8875208625456703
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 1,
+      "mse_treino_medio": 602.232218630693,
+      "mse_teste_medio": 605.5954830198708,
+      "mse_teste_mediano": 612.3816720827651,
+      "mse_teste_p90": 720.6543577044943,
+      "r2_teste_mediano": 0.9336919271542103
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 2,
+      "mse_treino_medio": 98.41735804215108,
+      "mse_teste_medio": 102.21973031617084,
+      "mse_teste_mediano": 102.16198776402578,
+      "mse_teste_p90": 126.42145464615425,
+      "r2_teste_mediano": 0.9887760561005448
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 10,
+      "mse_treino_medio": 94.95502276254197,
+      "mse_teste_medio": 106.60974060727267,
+      "mse_teste_mediano": 104.82458767677625,
+      "mse_teste_p90": 130.47925560985945,
+      "r2_teste_mediano": 0.9883764407116786
+    }
+  ],
+  "decomposicao": [
+    {
+      "cenario": "Base",
+      "grau": 1,
+      "bias2": 506.75342675520164,
+      "variancia": 18.63263079375001,
+      "ruido": 100,
+      "mse_esperado_grade": 625.3860575489516
+    },
+    {
+      "cenario": "Base",
+      "grau": 2,
+      "bias2": 0.008927233988593946,
+      "variancia": 3.9496450514793993,
+      "ruido": 100,
+      "mse_esperado_grade": 103.958572285468
+    },
+    {
+      "cenario": "Base",
+      "grau": 10,
+      "bias2": 0.1412716646214136,
+      "variancia": 32.609264843865525,
+      "ruido": 100,
+      "mse_esperado_grade": 132.75053650848693
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 1,
+      "bias2": 506.8048320927054,
+      "variancia": 37.97866766734646,
+      "ruido": 900,
+      "mse_esperado_grade": 1444.7834997600519
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 2,
+      "bias2": 0.08034510589734561,
+      "variancia": 35.546805463314676,
+      "ruido": 900,
+      "mse_esperado_grade": 935.6271505692121
+    },
+    {
+      "cenario": "Ruído maior",
+      "grau": 10,
+      "bias2": 1.2714449815927298,
+      "variancia": 293.4833835947907,
+      "ruido": 900,
+      "mse_esperado_grade": 1194.7548285763835
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 1,
+      "bias2": 506.6806885300252,
+      "variancia": 5.649197387767056,
+      "ruido": 100,
+      "mse_esperado_grade": 612.3298859177922
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 2,
+      "bias2": 0.010494279188004227,
+      "variancia": 1.3418336378367175,
+      "ruido": 100,
+      "mse_esperado_grade": 101.35232791702472
+    },
+    {
+      "cenario": "Triplo de dados",
+      "grau": 10,
+      "bias2": 0.031036965283929942,
+      "variancia": 5.520955445590135,
+      "ruido": 100,
+      "mse_esperado_grade": 105.55199241087406
+    }
+  ],
+  "versoes": {
+    "Python": "3.12.14",
+    "NumPy": "2.4.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "repeticoes": 200
+}
